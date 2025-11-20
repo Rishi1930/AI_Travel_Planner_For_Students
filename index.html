@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Travel Planner for Students</title>
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="bg-gradient-to-br from-black via-gray-900 to-purple-900 text-white min-h-screen flex flex-col items-center justify-center p-6">
+
+  <h1 class="text-3xl font-bold mb-6 text-center text-purple-400">
+    ✈️ AI Travel Planner for Students
+  </h1>
+
+  <!-- Input Card -->
+  <div class="bg-gray-800 bg-opacity-70 backdrop-blur-lg p-6 rounded-2xl shadow-lg w-full max-w-md">
+    <label class="block mb-2 text-sm text-gray-300">Your City</label>
+    <input id="city" type="text" placeholder="e.g., Hyderabad"
+      class="w-full mb-4 p-2 rounded bg-gray-700 text-white focus:outline-none">
+
+    <label class="block mb-2 text-sm text-gray-300">Budget (₹) (per person)</label>
+    <input id="budget" type="number" placeholder="e.g., 3000"
+      class="w-full mb-4 p-2 rounded bg-gray-700 text-white focus:outline-none">
+
+    <label class="block mb-2 text-sm text-gray-300">Duration (days)</label>
+    <input id="days" type="number" placeholder="e.g., 2"
+      class="w-full mb-4 p-2 rounded bg-gray-700 text-white focus:outline-none">
+
+    <label class="block mb-2 text-sm text-gray-300">Interests</label>
+    <input id="interests" type="text" placeholder="e.g., nature, temples"
+      class="w-full mb-4 p-2 rounded bg-gray-700 text-white focus:outline-none">
+
+    <button id="generateBtn"
+      class="w-full bg-purple-600 hover:bg-purple-700 transition-all py-2 rounded-lg font-semibold">
+      Generate My Trip
+    </button>
+  </div>
+
+  <!-- Output Section -->
+  <div id="output"
+    class="mt-8 w-full max-w-2xl bg-gray-900 bg-opacity-70 p-6 rounded-2xl hidden">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

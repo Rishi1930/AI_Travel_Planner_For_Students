@@ -1,0 +1,16 @@
+/* Extra style polish */
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+#output {
+  white-space: pre-line;
+  line-height: 1.6;
+  border-left: 4px solid #a855f7;
+  animation: fadeIn 0.6s ease;
+}
+
+@keyframes fadeIn {
+  from {opacity: 0; transform: translateY(20px);}
+  to {opacity: 1; transform: translateY(0);}
+}
