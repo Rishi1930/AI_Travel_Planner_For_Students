@@ -32,7 +32,7 @@ An intelligent travel planning application powered by Google's Gemini AI, design
 3. **Configure environment variables**
    Create a `.env` file in the root directory:
    ```env
-   GOOGLE_API_KEY=your_gemini_api_key_here
+   GOOGLE_API_KEY=AIzaSyDvGBMVg7VQVX277MWbHRCQacg0mDdDEC0
    PORT=3000
    ```
 
@@ -126,3 +126,4 @@ This project is open source and available under the [MIT License](LICENSE).
 ---
 
 **Note**: This application requires a valid Google Gemini API key to function. The API key should never be committed to version control.
+
