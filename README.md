@@ -20,8 +20,8 @@ An intelligent travel planning application powered by Google's Gemini AI, design
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/Rishi1930/Major-Project-1.git
-   cd Major-Project-1
+   git clone https://github.com/Rishi1930/AI_Travel_Planner_For_Students.git
+   cd AI_Travel_Planner_For_Students
    ```
 
 2. **Install dependencies**
